@@ -1,0 +1,33 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+
+.colorForm{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.colorHEXInput{
+    font-size: 20px;
+    color: #000;
+    background-color: rgba(202, 199, 199, 0.295);
+    padding: 15px 60px;
+    margin-bottom: 10px;                                                    
+    border: none;
+}
+
+.colorRGB{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
